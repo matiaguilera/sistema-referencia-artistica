@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.local
+.DS_Store
+# Fuentes pesadas del pipeline (se descargan aparte)
+pipeline/sources/
+pipeline/build/
+
+# Configuración local de herramientas
+.claude/

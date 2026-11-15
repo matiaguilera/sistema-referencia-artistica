@@ -1,0 +1,255 @@
+{
+  "_comment": "Generado por pipeline/scripts/build_labels.mjs a partir de TA2.csv (Z-Anatomy, CC BY-SA 4.0). No editar a mano.",
+  "frontalis": {
+    "es": "Frontal",
+    "la": "Musculus frontalis"
+  },
+  "occipitalis": {
+    "es": "Occipital",
+    "la": "Musculus occipitalis"
+  },
+  "epicranial_aponeurosis": {
+    "es": "Aponeurosis epicraneal",
+    "la": "Galea aponeurotica"
+  },
+  "temporalis": {
+    "es": "Temporal",
+    "la": "Musculus temporalis"
+  },
+  "procerus": {
+    "es": "Prócero",
+    "la": "Musculus procerus"
+  },
+  "corrugator_supercilii": {
+    "es": "Corrugador del supercilio",
+    "la": "Musculus corrugator supercilii"
+  },
+  "orbicularis_oculi": {
+    "es": "Orbicular de los ojos",
+    "la": "Musculus orbicularis oculi"
+  },
+  "nasalis": {
+    "es": "Nasal",
+    "la": "Musculus nasalis"
+  },
+  "depressor_septi_nasi": {
+    "es": "Depresor del septo nasal",
+    "la": "Depressor septi nasi"
+  },
+  "levator_labii_superioris": {
+    "es": "Elevador del labio superior",
+    "la": "Levator labii superioris"
+  },
+  "levator_anguli_oris": {
+    "es": "Elevador del angulo de la boca",
+    "la": "Levator anguli oris"
+  },
+  "zygomaticus_major": {
+    "es": "Cigomático mayor",
+    "la": "Musculus zygomaticus major"
+  },
+  "zygomaticus_minor": {
+    "es": "Cigomático menor",
+    "la": "Musculus zygomaticus minor"
+  },
+  "risorius": {
+    "es": "Risorio",
+    "la": "Musculus risorius"
+  },
+  "orbicularis_oris": {
+    "es": "Orbicular de la boca",
+    "la": "Musculus orbicularis oris"
+  },
+  "depressor_anguli_oris": {
+    "es": "Depresor del ángulo oral",
+    "la": "Depressor anguli oris"
+  },
+  "depressor_labii_inferioris": {
+    "es": "Depresor del labio inferior",
+    "la": "Depressor labii inferioris"
+  },
+  "mentalis": {
+    "es": "Mentoniano",
+    "la": "Musculus mentalis"
+  },
+  "masseter": {
+    "es": "Masetero",
+    "la": "Masseter"
+  },
+  "sternocleidomastoid": {
+    "es": "Esternocleidomastoideo",
+    "la": "Musculus sternocleidomastoideus"
+  },
+  "trapezius": {
+    "es": "Trapecio",
+    "la": "Musculus trapezius"
+  },
+  "splenius_capitis": {
+    "es": "Esplenio de la cabeza",
+    "la": "Musculus splenius capitis"
+  },
+  "levator_scapulae": {
+    "es": "Elevador de la escápula",
+    "la": "Levator scapulae"
+  },
+  "scalenus_anterior": {
+    "es": "Escaleno anterior",
+    "la": "Musculus scalenus anterior"
+  },
+  "scalenus_medius": {
+    "es": "Escaleno medio",
+    "la": "Musculus scalenus medius"
+  },
+  "scalenus_posterior": {
+    "es": "Escaleno posterior",
+    "la": "Musculus scalenus posterior"
+  },
+  "digastric": {
+    "es": "Digástrico",
+    "la": "Musculus digastricus"
+  },
+  "mylohyoid": {
+    "es": "Milohioideo",
+    "la": "Musculus mylohyoideus"
+  },
+  "stylohyoid": {
+    "es": "Estilohioideo",
+    "la": "Musculus stylohyoideus"
+  },
+  "omohyoid": {
+    "es": "Omohioideo",
+    "la": "Musculus omohyoideus"
+  },
+  "sternohyoid": {
+    "es": "Esternohioideo",
+    "la": "Musculus sternohyoideus"
+  },
+  "sternothyroid": {
+    "es": "Esternotiroideo",
+    "la": "Musculus sternothyreoideus"
+  },
+  "thyrohyoid": {
+    "es": "Tirohioideo",
+    "la": "Musculus thyreohyoideus"
+  },
+  "eyeball": {
+    "es": "Globo ocular",
+    "la": "Bulbus oculi"
+  },
+  "frontal_bone": {
+    "es": "Hueso frontal",
+    "la": "Os frontale"
+  },
+  "parietal_bone": {
+    "es": "Hueso parietal",
+    "la": "Os parietale"
+  },
+  "occipital_bone": {
+    "es": "Hueso occipital",
+    "la": "Os occipitale"
+  },
+  "temporal_bone": {
+    "es": "Hueso temporal",
+    "la": "Os temporale"
+  },
+  "sphenoid_bone": {
+    "es": "Hueso esfenoide",
+    "la": "Os sphenoideum"
+  },
+  "ethmoid_bone": {
+    "es": "Hueso etmoides",
+    "la": "Os ethmoideum"
+  },
+  "zygomatic_bone": {
+    "es": "Hueso cigomático",
+    "la": "Os zygomaticum"
+  },
+  "maxilla": {
+    "es": "Hueso maxilar",
+    "la": "Maxilla"
+  },
+  "nasal_bone": {
+    "es": "Hueso nasal",
+    "la": "Os nasale"
+  },
+  "lacrimal_bone": {
+    "es": "Hueso lagrimal",
+    "la": "Os lacrimale"
+  },
+  "palatine_bone": {
+    "es": "Hueso palatino",
+    "la": "Os palatinum"
+  },
+  "inferior_nasal_concha": {
+    "es": "Hueso concha nasal inferior",
+    "la": "Concha nasalis inferior"
+  },
+  "vomer": {
+    "es": "Vómer",
+    "la": "Vomer"
+  },
+  "mandible": {
+    "es": "Mandíbula",
+    "la": "Mandibula"
+  },
+  "nasal_cartilages": {
+    "es": "Cartílagos nasales",
+    "la": "Cartilagines nasi"
+  },
+  "upper_teeth": {
+    "es": "Dientes superiores",
+    "la": "Dentes maxillares"
+  },
+  "lower_teeth": {
+    "es": "Dientes inferiores",
+    "la": "Dentes mandibulares"
+  },
+  "hyoid_bone": {
+    "es": "Hueso hioides",
+    "la": "Os hyoideum"
+  },
+  "thyroid_cartilage": {
+    "es": "Cartílago tiroideo",
+    "la": "Cartilago thyreoidea"
+  },
+  "cricoid_cartilage": {
+    "es": "Cartílago cricoides",
+    "la": "Cartilago cricoidea"
+  },
+  "atlas": {
+    "es": "Atlas (C1)",
+    "la": "Atlas"
+  },
+  "axis": {
+    "es": "Axis (C2)",
+    "la": "Axis"
+  },
+  "vertebra_c3": {
+    "es": "Vértebra C3",
+    "la": "Vertebra cervicalis III"
+  },
+  "vertebra_c4": {
+    "es": "Vértebra C4",
+    "la": "Vertebra cervicalis IV"
+  },
+  "vertebra_c5": {
+    "es": "Vértebra C5",
+    "la": "Vertebra cervicalis V"
+  },
+  "vertebra_c6": {
+    "es": "Vértebra C6",
+    "la": "Vertebra cervicalis VI"
+  },
+  "vertebra_c7": {
+    "es": "Vértebra C7",
+    "la": "Vertebra cervicalis VII"
+  },
+  "clavicle": {
+    "es": "Clavícula",
+    "la": "Clavicula"
+  },
+  "manubrium": {
+    "es": "Manubrio del esternón",
+    "la": "Manubrium sterni"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "defaultModel": "male",
+  "models": [
+    {
+      "id": "male",
+      "name": "Masculino",
+      "description": "Piel: MPFB2 (CC0). Músculos y cráneo: Z-Anatomy (CC BY-SA 4.0), ajustados a esta cabeza.",
+      "sex": "male",
+      "age": 25,
+      "layers": {
+        "skin": "male/skin.glb",
+        "muscle": "male/muscle.glb",
+        "skull": "male/skull.glb"
+      },
+      "labels": "labels/anatomy.es.json",
+      "frame": {
+        "target": [
+          0,
+          -0.056,
+          -0.0042
+        ],
+        "radius": 0.2022
+      },
+      "landmarks": {
+        "top": 0.1072,
+        "browLine": 0.0215,
+        "eyeLine": 0,
+        "noseBase": -0.0535,
+        "mouthLine": -0.0725,
+        "chin": -0.1185
+      },
+      "credits": [
+        "Piel: MakeHuman / MPFB2 (CC0)",
+        "Anatomía: Z-Anatomy, a partir de BodyParts3D © DBCLS (CC BY-SA 4.0)"
+      ]
+    },
+    {
+      "id": "female",
+      "name": "Femenino",
+      "description": "Piel: MPFB2 (CC0). Músculos y cráneo: Z-Anatomy (CC BY-SA 4.0), adaptados de la anatomía masculina a esta cabeza.",
+      "sex": "female",
+      "age": 25,
+      "layers": {
+        "skin": "female/skin.glb",
+        "muscle": "female/muscle.glb",
+        "skull": "female/skull.glb"
+      },
+      "labels": "labels/anatomy.es.json",
+      "frame": {
+        "target": [
+          0,
+          -0.0466,
+          0.0016
+        ],
+        "radius": 0.1829
+      },
+      "landmarks": {
+        "top": 0.1025,
+        "browLine": 0.0185,
+        "eyeLine": 0,
+        "noseBase": -0.0445,
+        "mouthLine": -0.0595,
+        "chin": -0.1005
+      },
+      "credits": [
+        "Piel: MakeHuman / MPFB2 (CC0)",
+        "Anatomía: Z-Anatomy, a partir de BodyParts3D © DBCLS (CC BY-SA 4.0)"
+      ]
+    }
+  ]
+}
