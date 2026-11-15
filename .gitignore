@@ -8,3 +8,7 @@ pipeline/build/
 
 # Configuración local de herramientas
 .claude/
+
+# Caché de Python (incluye rutas locales)
+__pycache__/
+*.pyc
