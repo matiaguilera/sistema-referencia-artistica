@@ -26,7 +26,12 @@ export async function captureView(scale: 1 | 2, filename: string) {
   const state = getState();
   const { gl, scene, camera, size } = state;
   const prevDpr = gl.getPixelRatio();
-  const dpr = Math.min(4, Math.max(1, window.devicePixelRatio || 1) * scale);
+  // Tope de tamaño: una imagen demasiado grande puede agotar la memoria de la GPU y el
+  // navegador quita el contexto WebGL (la vista queda en negro). 4096 px en el lado mayor
+  // alcanza de sobra para una referencia y funciona en GPUs integradas.
+  const MAX_SIDE = Math.min(4096, gl.capabilities.maxTextureSize);
+  const wanted = Math.max(1, window.devicePixelRatio || 1) * scale;
+  const dpr = Math.min(wanted, MAX_SIDE / Math.max(size.width, size.height));
 
   const hidden: THREE.Object3D[] = [];
   scene.traverse((o) => {

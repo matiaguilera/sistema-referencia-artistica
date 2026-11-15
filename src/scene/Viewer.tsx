@@ -55,12 +55,25 @@ export function Viewer() {
   );
 }
 
-/** Da a la captura PNG acceso al renderer y a la escena. */
+/** Da a la captura PNG acceso al renderer y a la escena; avisa si se pierde el contexto WebGL. */
 function CaptureBridge() {
   const get = useThree((s) => s.get);
+  const gl = useThree((s) => s.gl);
   useEffect(() => {
     registerCaptureState(get);
     return () => registerCaptureState(null);
   }, [get]);
+
+  useEffect(() => {
+    const el = gl.domElement;
+    const lost = () => useAppStore.getState().setGlContextLost(true);
+    const restored = () => useAppStore.getState().setGlContextLost(false);
+    el.addEventListener('webglcontextlost', lost);
+    el.addEventListener('webglcontextrestored', restored);
+    return () => {
+      el.removeEventListener('webglcontextlost', lost);
+      el.removeEventListener('webglcontextrestored', restored);
+    };
+  }, [gl]);
   return null;
 }

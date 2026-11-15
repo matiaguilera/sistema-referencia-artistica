@@ -22,7 +22,13 @@ const BG_OPTIONS: { id: Background; label: string }[] = [
 ];
 
 export function SidePanel() {
-  const { models, modelId, setModelId, panelOpen, togglePanel, background, setBackground } = useAppStore();
+  const models = useAppStore((s) => s.models);
+  const modelId = useAppStore((s) => s.modelId);
+  const setModelId = useAppStore((s) => s.setModelId);
+  const panelOpen = useAppStore((s) => s.panelOpen);
+  const togglePanel = useAppStore((s) => s.togglePanel);
+  const background = useAppStore((s) => s.background);
+  const setBackground = useAppStore((s) => s.setBackground);
   const current = useCurrentModel();
 
   return (

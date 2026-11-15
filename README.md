@@ -189,6 +189,11 @@ Para que un modelo aparezca seleccionado al abrir la app, pon su id en `defaultM
 
 Agrega la fuente y la licencia del modelo a [`CREDITS.md`](CREDITS.md). Solo se aceptan **CC0, CC BY o CC BY-SA**. Nada con cláusula NC (no comercial) ni ND (sin derivados).
 
+## Solución de problemas
+
+- **Pantalla negra o "Algo salió mal" con `npm run dev`:** a veces el servidor de Vite en Windows sigue sirviendo una versión vieja de un archivo que cambió varias veces seguidas. Detén el servidor (`Ctrl+C`), vuelve a correr `npm run dev` y recarga el navegador sin caché (`Ctrl+Shift+R`).
+- **"La vista 3D se detuvo":** el navegador liberó la memoria gráfica, típicamente con una GPU integrada tras una captura grande o con muchas pestañas 3D abiertas. Recarga la página.
+
 ## Despliegue
 
 `npm run build` genera `dist/`. Como el build usa rutas relativas (`base: './'`), funciona en la raíz de un dominio o en un subdirectorio:

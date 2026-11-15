@@ -40,6 +40,8 @@ interface AppState {
   showGuides: boolean;
   showMidline: boolean;
   captureScale: 1 | 2;
+  /** El navegador quitó el contexto WebGL (falta de memoria de GPU, driver, etc.). */
+  glContextLost: boolean;
 
   setRegistry: (models: ModelEntry[], defaultId?: string) => void;
   setRegistryError: (msg: string) => void;
@@ -63,6 +65,7 @@ interface AppState {
   setShowGuides: (v: boolean) => void;
   setShowMidline: (v: boolean) => void;
   setCaptureScale: (v: 1 | 2) => void;
+  setGlContextLost: (v: boolean) => void;
 }
 
 export interface PartRef {
@@ -97,6 +100,7 @@ export const useAppStore = create<AppState>((set) => ({
   showGuides: false,
   showMidline: true,
   captureScale: 2,
+  glContextLost: false,
 
   setRegistry: (models, defaultId) =>
     set({
@@ -130,6 +134,7 @@ export const useAppStore = create<AppState>((set) => ({
   setShowGuides: (showGuides) => set({ showGuides }),
   setShowMidline: (showMidline) => set({ showMidline }),
   setCaptureScale: (captureScale) => set({ captureScale }),
+  setGlContextLost: (glContextLost) => set({ glContextLost }),
 }));
 
 export const useCurrentModel = () =>
